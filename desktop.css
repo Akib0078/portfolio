@@ -1,0 +1,115 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* navbar starts */
+
+.nav-logo{
+    text-align: left;
+}
+.nav-heading{
+    text-align: right;
+}
+.nav-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav-menu a{
+    padding: 5px 10px;
+    margin: 20px 0;
+    background-color: #13adc5;
+}
+.navbar h1{
+    float: left;
+}
+
+/* navbar ends */
+
+/* Profile starts */
+
+.profile-desc p{
+    color: rgb(83, 83, 83);
+    text-align: center;
+    width: 50%;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+.profile-desc h1{
+    font-family: 'Pacifico', cursive;
+    color:#13adc5;
+}
+
+/* Profile ends */
+
+/* About starts */
+
+.about-img{
+    margin-top: 20px;
+}
+.about-img img{
+    height: 220px;
+    width: 220px;
+}
+.about-desc p{
+    text-align: left;
+}
+
+/* About ends */
+
+/* Gallery starts*/
+
+.gallery{
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.gallery img{
+    width: 550px;
+    height: 550px;
+    margin-top: 20px;
+}
+
+/* Gallery ends */
+
+/* Contact starts */
+.contact::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.contact1 p{
+    text-align: left;
+}
+/* Contact ends */
+
+/* Footer starts */
+
+.footer-menu{
+    margin-top: 10px;
+}
+.footer-menu a{
+    display: inline;
+    margin: 10px;
+}
+.footer-desc{
+    margin-top: 10px;
+}
+
+/* Footer ends */
